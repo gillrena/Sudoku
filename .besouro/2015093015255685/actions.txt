@@ -22,3 +22,15 @@ EditAction 1443618556878 TestSudokuVerifier.java 307 1 3 0
 UnitTestCaseAction 1443618735308 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443618735308 TestSudokuVerifier OK
 EditAction 1443618762972 TestSudokuVerifier.java 354 1 0 0
+CompilationAction 1443618763176 TestSudokuVerifier.java
+CompilationAction 1443618766333 TestSudokuVerifier.java
+UnitTestCaseAction 1443618769222 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443618769223 TestSudokuVerifier OK
+RefactoringAction 1443619163802 SudokuVerifier.java ADD void setRows(String) METHOD
+RefactoringAction 1443619783428 SudokuVerifier.java ADD void check FIELD
+RefactoringAction 1443619784433 SudokuVerifier.java RENAME check=>void checkR FIELD
+RefactoringAction 1443619788439 SudokuVerifier.java RENAME checkR=>void checkDuplication() METHOD
+RefactoringAction 1443619809966 SudokuVerifier.java RENAME checkDuplication()=>void checkDuplication(String) METHOD
+RefactoringAction 1443619813477 SudokuVerifier.java RENAME checkDuplication(String)=>void checkDuplication() METHOD
+RefactoringAction 1443619818491 SudokuVerifier.java RENAME checkDuplication()=>void checkDuplication(String) METHOD
+EditAction 1443619942381 SudokuVerifier.java 853 3 6 0

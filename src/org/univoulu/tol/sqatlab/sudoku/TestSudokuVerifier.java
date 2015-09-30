@@ -12,7 +12,7 @@ public class TestSudokuVerifier {
 		String testStr = "012345678";
 		SudokuVerifier candidate = new SudokuVerifier();
 		candidate.verify(testStr);
-		System.out.println(candidate.verify(testStr););
+		System.out.println(candidate.verify(testStr));
 	}
 
 }
