@@ -11,7 +11,7 @@ public class SudokuVerifier {
 		if(strArray.length() != 81){
 			return -5;
 		}else{
-			return 0;
+			
 		}
 		
 		// returns 1 if the candidate solution is correct
@@ -25,6 +25,7 @@ public class SudokuVerifier {
 			
 			if(i%8==0){
 				strRow = strArray.substring((i-8),i);
+				checkDuplication(strRow);
 			}
 		}
 	}
