@@ -9,9 +9,9 @@ public class TestSudokuVerifier {
 	@Test
 	public void test() {
 		
-		String testStr = "";
+		String testStr = "012345678";
 		SudokuVerifier candidate = new SudokuVerifier();
-		candidate.verify("012345678");
+		candidate.verify(testStr);
 		
 	}
 
