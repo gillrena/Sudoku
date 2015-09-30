@@ -31,13 +31,46 @@ public class SudokuVerifier {
 						repeatNum++;
 					}
 					
-					if(i==10 && repeatNum > 0){
+					if(i==10 && repeatNum>0){
 						return -2;
+					}else{
+						if(i==19 && repeatNum>0){
+							return -2;
+						}else{
+							if(i==28 && repeatNum>0){
+								return -2;
+							}else{
+								if(i==37 && repeatNum>0){
+									return -2;
+								}else{
+									if(i==46 && repeatNum>0){
+										return -2;
+									}else{
+										if(i==55 && repeatNum>0){
+											return -2;
+										}else{
+											if(i==64 && repeatNum>0){
+												return -2;
+											}else{
+												if(i==73 && repeatNum>0){
+													return -2;
+												}else{
+													if(i==82 && repeatNum>0){
+														return -2;
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
 					}
+					
+					
+					
 				}
-			}
-			
-			break;
+			}break;
 		}
 		
 		
