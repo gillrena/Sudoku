@@ -23,10 +23,14 @@ public class SudokuVerifier {
 		String strRow = "";
 		for(int i=0; i<=strArray.length();i++){
 			
+			for(int j=0; j<=strArray.length(); j++){
+				
+			}
 		}
 	}
 	
-	public void checkDuplication(String nineNums){
+	public int checkDuplication(String nineNums){
+		boolean result = false;
 		for(int i=0; i<=8; i++){
 			char str = nineNums.charAt(i);
 			int num = (int)str;
@@ -35,9 +39,16 @@ public class SudokuVerifier {
 				int num2 = (int)str2;
 				
 				if(num==num2){
-					return false;
+					result = false;
+				}else{
+					result = true;
 				}
 			}
+		}
+		if(result==true){
+			return 0;
+		}else{
+			return -1;
 		}
 	}
 }

@@ -34,3 +34,6 @@ RefactoringAction 1443619809966 SudokuVerifier.java RENAME checkDuplication()=>v
 RefactoringAction 1443619813477 SudokuVerifier.java RENAME checkDuplication(String)=>void checkDuplication() METHOD
 RefactoringAction 1443619818491 SudokuVerifier.java RENAME checkDuplication()=>void checkDuplication(String) METHOD
 EditAction 1443619942381 SudokuVerifier.java 853 3 6 0
+CompilationAction 1443619942631 SudokuVerifier.java
+CompilationAction 1443620078077 SudokuVerifier.java
+EditAction 1443620144236 SudokuVerifier.java 1036 3 8 0
