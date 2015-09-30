@@ -10,9 +10,9 @@ public class TestSudokuVerifier {
 	public void test() {
 		
 		String testStr = "";
+		SudokuVerifier candidate = new SudokuVerifier();
+		candidate.verify("012345678");
 		
-		
-		fail("Not yet implemented");
 	}
 
 }
