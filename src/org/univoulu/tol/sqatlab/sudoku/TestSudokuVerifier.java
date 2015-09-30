@@ -8,6 +8,10 @@ public class TestSudokuVerifier {
 
 	@Test
 	public void test() {
+		
+		String testStr = "";
+		
+		
 		fail("Not yet implemented");
 	}
 
