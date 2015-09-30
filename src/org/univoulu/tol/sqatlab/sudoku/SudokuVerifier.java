@@ -24,7 +24,7 @@ public class SudokuVerifier {
 		for(int i=0; i<=strArray.length();i++){
 			
 			if(i%8==0){
-				strRow = strArray.substring(i);
+				strRow = strArray.substring((i-8),i);
 			}
 		}
 	}
